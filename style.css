@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+.top-block {
+    background-color: #4d636f;
+    color: #fff;
+}
+.top-block a {
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    text-decoration: none;
+}
+.top-block a:hover {
+    color: #000;
+    background-color: #fff;
+}
+.top-block a:first-child {
+    background-color: #3a4b53;
+}
+.top-block a:first-child:hover {
+    background-color: #ccc;
+    color: #000;
+}
+.top-block a:first-child i {
+    margin-right: 6px;
+}
+.top-block .avatar-img {
+    float: right;
+}
+.top-block .dropdown-hover {
+    display: inline-block;
+    position: relative;
+}
+.top-block .dropdown-hover:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    top: 42px;
+    width: 300px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.top-block .dropdown-content {
+    display: none;
+}
+.top-block .dropdown-content a {
+    color: #000;
+    background-color: #fff;
+    display: block;
+}
+.top-block .dropdown-content a:hover {
+    background-color: #ccc;
+}
+.top-block .dropdown-content a:last-child {
+    float: none;
+}
+.top-block a span {
+    background-color: #4CAF50;
+    padding: 0 8px;
+    font-size: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+}
+.top-block img {
+    border-radius: 50%;
+}
+.top-block .menu-icon {
+    display: none;
+}
+.navResponsive {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .top-block a {
+        display: none;
+    }
+    .top-block .menu-icon,
+    .top-block a:first-child {
+        display: inline-block;
+    }
+    .top-block .dropdown-hover a {
+        display: none;
+    }
+    .top-block .menu-icon {
+        float: right;
+    }
+    .top-block .responsive .navResponsive,
+    .top-block .responsive .navResponsive a {
+        display: block;
+    }
+    .top-block .responsive .navResponsive a {
+        background-color: #4d636f;
+    }
+    .top-block .responsive .navResponsive a:hover {
+        background-color: #ccc;
+    }
+}
