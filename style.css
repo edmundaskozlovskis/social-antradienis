@@ -108,6 +108,108 @@ body {
     color: #607d8b;
     margin-right: 16px;
 }
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #7d97a5;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+background-color: #ccc;
+color: #000;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+padding: 0 18px;
+background-color: white;
+display: none;
+overflow: hidden;
+}
+.accordion-block i {
+    margin-right: 16px;
+}
+.accordion-block .accordion-img-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6px;
+    margin-top: 6px;
+}
+/* .accordion-block .accordion-img-block div {
+    width: 50%;
+} */
+.accordion-block .accordion-img-block img {
+    width: 100%;
+}
+.interests p span {
+    font-size: 12px;
+    padding: 0 8px;
+    display: inline-block;
+}
+.interests p span:nth-child(1) {
+    background-color: #303e45;
+    color: #fff;
+}
+.interests p span:nth-child(2) {
+    background-color: #3a4b53;
+    color: #fff;
+}
+.interests p span:nth-child(3) {
+    background-color: red;
+    color: #fff;
+}
+.interests p span:nth-child(4) {
+    background-color: red;
+    color: #fff;
+}
+.interests p span:nth-child(5) {
+    background-color: red;
+    color: #fff;
+}
+.interests p span:nth-child(6) {
+    background-color: red;
+    color: #fff;
+}
+.interests p span:nth-child(7) {
+    background-color: red;
+    color: #fff;
+}
+.interests p span:nth-child(8) {
+    background-color: red;
+    color: #000;
+}
+.interests p span:nth-child(9) {
+    background-color: red;
+    color: #000;
+}
+.interests p span:nth-child(10) {
+    background-color: red;
+    color: #000;
+}
+.interests p span:nth-child(11) {
+    background-color: red;
+    color: #000;
+}
+#alert-block {
+    position: relative;
+    background-color: #dfe5e8;
+}#alert-block span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #becbd2;
+    padding: 8px 16px;
+    cursor: pointer;
+}
 hr {
     border: none;
     border-top: solid 1px #eee;
